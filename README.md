@@ -1,7 +1,7 @@
 # Obfuscated SharpCollection
 Quick and dirty stab at automated Obfuscation using [yetAnotherObfuscator](https://github.com/0xb11a1/yetAnotherObfuscator) by [@0xcc00](https://twitter.com/0xcc00) together with fresh builds of common C# offensive tools, in a CDI fashion using Azure DevOps release pipelines. 
 
-**Obfuscated SharpCollection is not intended to be as complete as the original SharpCollection repo. Obfuscated SharpCollection only contains obfuscated NetFramework 4.7 ANY_CPU compiled binaries**
+**Obfuscated SharpCollection is not intended to be as complete as the original [SharpCollection](https://github.com/Flangvik/SharpCollection) repo. Obfuscated SharpCollection only contains obfuscated NetFramework 4.7 ANY_CPU compiled binaries**
 
 # Azure DevOps? 
 Each night at 03:00 AM, the Azure DevOps pipeline checks for new commits to all repositories master branch. Branches with changes will be automatically fetched and compiled with different framework targets as well as architectures, before being pushed to this repo. 
